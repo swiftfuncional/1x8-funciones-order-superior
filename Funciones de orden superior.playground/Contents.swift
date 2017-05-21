@@ -1,5 +1,11 @@
-func log(_ msg: String) {
+func logToConsole(_ msg: String) {
     print(msg)
 }
 
-log("Hello Swift Funcional!")
+func logToFile(_ msg: String) {
+    print(msg)
+}
+
+func logToWindow(_ msg: String) {
+    print(msg)
+}
